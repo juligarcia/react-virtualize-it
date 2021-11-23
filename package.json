@@ -1,11 +1,11 @@
 {
   "name": "react-virtual-ice",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": "https://github.com/juligarcia/react-virtualize-it",
   "typings": "./dist/definitions/index.d.ts",
-  "main": "src/lib/index.ts",
+  "main": "src/index.ts",
   "files": [
-    "src/lib"
+    "src/**/*"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
