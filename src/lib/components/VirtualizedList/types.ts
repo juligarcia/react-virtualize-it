@@ -39,16 +39,16 @@ export type RowRenderer = (
 
 export interface VirtualizedListProps {
   data: Data;
-  className: string;
-  elementsPerRow: number;
-  overscan: number;
+  className?: string;
+  elementsPerRow?: number;
+  overscan?: number;
   itemRenderer(item: any, index: number): ReactNode;
-  itemPadding: number;
-  NoDataComponent: FC;
-  effect: string;
-  reRenderOnChange: any[];
-  HeaderRenderer: FC;
-  FooterRenderer: FC;
+  itemPadding?: number;
+  NoDataComponent?: FC;
+  effect?: string;
+  reRenderOnChange?: any[];
+  HeaderRenderer?: FC;
+  FooterRenderer?: FC;
 }
 
 export interface VirtualizedDataProps {
