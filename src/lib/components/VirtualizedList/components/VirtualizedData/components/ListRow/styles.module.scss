@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.fadeIn {
+  animation: fadeInAnimation 0.5s ease-in-out;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.slideIn {
+  animation: slideInAnimation 0.5s ease-in;
+}
+
+@keyframes slideInAnimation {
+  0% {
+    left: -100%;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
